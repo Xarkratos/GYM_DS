@@ -24,12 +24,14 @@ function recorreEInsertaPlanes(planes){
         const card = crearTarjetaDinamica(gym);
         gimplan.appendChild(card);
     });
+    
 
 };
 
 
 function crearTarjetaDinamica(gym) {
 
+    debugger;
     const divCol = document.createElement('div');
     divCol.classList.add('col-12', 'col-sm-12', 'col-md-6', 'col-lg-4', 'mb-3' , 'p-4');
     const divCard = document.createElement('div');
